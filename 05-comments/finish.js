@@ -7,3 +7,15 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+//First comment
+
+const myCountry = 'Belarus'; // Country when i live;
+
+/* I live in Belarus */
+
+/**
+ * My 
+ * automate 
+ * coment
+ */

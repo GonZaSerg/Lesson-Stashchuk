@@ -8,3 +8,12 @@
  *
  * 4. Вызовите функцию
  */
+
+function muName() {
+
+	const muName = 'Serg'
+
+	console.log(muName)
+};
+
+muName();

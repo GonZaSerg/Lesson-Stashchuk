@@ -10,3 +10,13 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const myName = 'Serg ';
+
+const mySurname = 'Rudenko';
+
+const myJob = 'bulder';
+
+const mydate = 'Меня зовут ' + myName + mySurnamee + ' и я ' + myJob;
+
+console.log(mydate)
