@@ -5,4 +5,9 @@
  * 2. Используйте стрелочную функцию
  */
 
-setTimeout(() => console.log('Привет, мир!'), 5000)
+const helloWorld = () => console.log('Hello, World')
+
+setTimeout(helloWorld, 5000)
+
+//setTimeout(() => console.log('Привет, мир!'), 5000)
+

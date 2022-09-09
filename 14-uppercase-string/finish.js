@@ -12,3 +12,13 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const myBoardGame = 'Terraforming of Mars'
+
+console.log(myBoardGame instanceof String)
+
+console.log(typeof myBoardGame)
+
+const myBoardGameUpper = myBoardGame.toUpperCase()
+
+console.log(myBoardGameUpper)
