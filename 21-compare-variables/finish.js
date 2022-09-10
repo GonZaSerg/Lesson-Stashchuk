@@ -11,6 +11,7 @@ let myVariable2 = '5'
 
 // Напишите код здесь
 
+
 myVariable1 = '20'
 myVariable2 = 100
 

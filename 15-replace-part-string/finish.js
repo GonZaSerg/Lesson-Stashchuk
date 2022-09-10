@@ -6,3 +6,11 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+const day = 'Good Morning';
+
+const dayEver = day.replace('Morning', 'Evening');
+
+console.log(dayEver);
+
+//replace('Morning', 'Evening');

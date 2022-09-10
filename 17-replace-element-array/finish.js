@@ -8,3 +8,11 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myArrow = [25, true, 'serg', undefined];
+
+console.log(myArrow);
+
+myArrow[1] = false;
+
+console.log(myArrow);

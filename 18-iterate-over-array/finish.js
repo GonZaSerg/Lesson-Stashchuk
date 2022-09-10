@@ -5,3 +5,8 @@
  * 2. Используя один из методов массивов, переберите все элементы
  * и выведите каждый элемент в консоль
  */
+
+const myArrow = [27, true, 125, 'Serg']
+
+myArrow.forEach(element => console.log(element)
+);

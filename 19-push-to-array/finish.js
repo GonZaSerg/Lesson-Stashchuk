@@ -6,3 +6,12 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+
+const myArrow = [12, 'Lebron', true, null];
+
+myArrow.push(23, 'today');
+
+console.log(myArrow.length);
+
+console.log(myArrow);

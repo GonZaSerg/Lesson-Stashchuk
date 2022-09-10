@@ -4,3 +4,8 @@
  *
  * 2. Выведите значение в консоль
  */
+
+
+const date = new Date
+
+console.log(date.getTime())

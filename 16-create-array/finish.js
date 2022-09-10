@@ -6,3 +6,12 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+const myArrow = [1, true, 'string'];
+
+console.log(myArrow[0])
+
+console.log(myArrow.length)
+
+
+
