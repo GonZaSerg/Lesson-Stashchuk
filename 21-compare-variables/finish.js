@@ -10,9 +10,24 @@ let myVariable1 = 10
 let myVariable2 = '5'
 
 // Напишите код здесь
+myVariable1 = Number(myVariable1);
 
+myVariable2 = Number(myVariable2);
+
+if (myVariable1 <= myVariable2) {
+	console.log(true)
+};
 
 myVariable1 = '20'
 myVariable2 = 100
 
 // Напишите код здесь
+myVariable1 = Number(myVariable1);
+
+myVariable2 = Number(myVariable2);
+
+if (myVariable1 <= myVariable2) {
+	console.log(myVariable1 <= myVariable2)
+};
+
+console.log(parseInt(true))
