@@ -12,3 +12,14 @@
  * "Сообщение номер 4"
  * "Сообщение номер 5"
  */
+
+// const counter = 1;
+
+// const intervalDate = setInterval(function () {
+// 	console.log(`Сообщение номер ` + $(".count1").text(counter++));
+// 	if (counter = 5) {
+// 		clearInterval()
+// 	}
+// }, 2000)
+
+const intervalDate = setInterval(() => console.log('Сообщение номер 1'), 2000)
