@@ -21,5 +21,14 @@
 // 		clearInterval()
 // 	}
 // }, 2000)
+let i = 1;
 
-const intervalDate = setInterval(() => console.log('Сообщение номер 1'), 2000)
+const intervalDate = setInterval(() => {
+	console.log('Сообщение номер ' + i)
+	i += 1
+	//if (i = 5) {
+	//		clearTimeout(intervalDate)
+	//}
+}, 2000)
+
+setTimeout(() => clearTimeout(intervalDate), 11000)
