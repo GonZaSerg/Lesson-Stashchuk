@@ -7,9 +7,22 @@
  */
 
 const myObject = {
-  key1: true,
-  key5: 10,
-  key3: 'abc',
-  key4: null,
-  key10: NaN,
+	key1: true,
+	key5: 10,
+	key3: 'abc',
+	key4: null,
+	key10: NaN,
 }
+
+console.log(typeof myObject);
+
+const objectRes = Object.keys(myObject);
+
+console.log(objectRes);
+
+
+objectRes.forEach((key) => {
+	if (key === 'key1' || key === 'key3') {
+		console.log(myObject[key])
+	}
+})
