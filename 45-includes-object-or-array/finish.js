@@ -10,18 +10,41 @@
  */
 
 const tags = [
-  ['javascript', 'es6'],
-  ['css', 'flexbox'],
-  ['html', 'web-browser'],
+	['javascript', 'es6'],
+	['css', 'flexbox'],
+	['html', 'web-browser'],
 ]
 
 const fruits = [
-  { title: 'Orange', quantity: 10 },
-  { title: 'Banana', quantity: 5 },
-  { title: 'Apple', quantity: 25 },
+	{ title: 'Orange', quantity: 10 },
+	{ title: 'Banana', quantity: 5 },
+	{ title: 'Apple', quantity: 25 },
 ]
 
 const primitiveTypesArray = [25, 'x', true, undefined, null]
+
+
+
+const isElementInArray = (searchElement, inputArray) => {
+
+
+
+
+	if (typeof searchElement !== 'object') {
+		const search = inputArray.includes(searchElement)
+		return search
+	}
+
+	return inputArray
+		.map((element) => JSON.stringify(element))
+		.includes(JSON.stringify(searchElement))
+
+
+
+
+}
+
+
 
 console.log(isElementInArray(['css', 'flexbox'], tags)) // true
 
