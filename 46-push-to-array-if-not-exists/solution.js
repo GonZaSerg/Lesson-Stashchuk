@@ -11,11 +11,11 @@
  */
 
 const pushIfUnique = (inputArray, newElement) => {
-  if (inputArray.includes(newElement)) {
-    return console.log(`${newElement} уже находится в массиве`)
-  }
+	if (inputArray.includes(newElement)) {
+		console.log(`${newElement} уже находится в массиве`)
+	}
 
-  inputArray.push(newElement)
+	inputArray.push(newElement)
 }
 
 const myNumbers = [123, 50, 27]

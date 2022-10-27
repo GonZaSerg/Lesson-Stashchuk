@@ -6,11 +6,19 @@
  * Используйте деструктуризацию массива
  */
 
-const processQuantities = (/* parameters */) => {
-  console.log(minQty) // 8
-  console.log(maxQty) // 29
-  console.log(defaultQty) // 10 в первом вызове, 0 во втором вызове
-  return defaultQty + maxQty - minQty
+//const processQuantities = (/* parameters */) => {
+//  console.log(minQty) // 8
+//console.log(maxQty) // 29
+//console.log(defaultQty) // 10 в первом вызове, 0 во втором вызове
+//return defaultQty + maxQty - minQty
+//}
+
+const processQuantities = (parametrs) => {
+	const [minQty, maxQty, defaultQty = 0] = parametrs;
+	console.log(minQty);
+	console.log(maxQty);
+	console.log(defaultQty);
+	return defaultQty + maxQty - minQty;
 }
 
 const inputQuantities1 = [8, 29, 10]

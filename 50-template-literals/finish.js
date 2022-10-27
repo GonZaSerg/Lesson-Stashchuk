@@ -24,3 +24,24 @@ console.log(templateLiteral(myAnotherNumber))
 Это число больше или равно 10.
 Квадратный корень этого числа - 5.
 */
+
+
+
+function templateLiteral(num) {
+	let numEqual
+	let numSquer = Math.sqrt(num)
+	if (num < 10) {
+
+		numEqual = `Это число меньше 10.`
+	};
+	if (num >= 10) {
+		numEqual = `Это число больше или равно  10 `
+	};
+
+
+	return `
+Число ${num} 
+${numEqual}
+Квадратный корень этого числа - ${numSquer} `
+}
+
